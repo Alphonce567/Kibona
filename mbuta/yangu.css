@@ -1,0 +1,40 @@
+.header{
+    border: 5px solid black;
+    margin: 5px;
+   background-color: aquamarine;
+   
+}
+.container{
+margin: 5px;
+display: flex;
+height: 80vh;
+}
+.left{
+    border: 5px solid black;
+    margin: 5px;
+    width: 20%;    
+    height: 90%;
+    background-color: aquamarine;
+
+}
+.center{
+    border: 5px solid black;
+    margin: 5px;
+    width: 60%;    
+    height: 90%;
+    background-color: aquamarine;
+
+}
+.right{
+    border: 5px solid black;
+    margin: 5px;
+    width: 20%;    
+    height: 90%;
+    background-color: aquamarine;
+
+}
+.bottom{
+    border: 5px solid black;
+    margin: 5px;
+   background-color: aquamarine;
+}
