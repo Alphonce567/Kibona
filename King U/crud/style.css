@@ -1,0 +1,13 @@
+
+tr, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    table{
+        max-width: 600;
+        justify-content: center;
+    }
