@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Building Forms</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="form">
+      <form action="">
+        <h3>Login Form</h3>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="name"
+          placeholder="Enter Your Name"
+          required
+        />
+
+        <label for="lastname">Last Name</label>
+        <input
+          type="text"
+          name=""
+          id="lastname"
+          placeholder="Enter Your Last Name"
+          required
+        />
+
+        <label for="course" class="course">Select Course</label>
+        <select name="course" id="">
+          <option value="agriculture sa">agriculture sa</option>
+          <option value="horticulture">horticulture</option>
+          <option value="veterinary">veterinary</option>
+        </select>
+        <p class="error" id="error"></p>
+        <button class="submit-btn">Submit</button>
+      </form>
+    </section>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
